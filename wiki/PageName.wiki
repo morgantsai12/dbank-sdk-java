@@ -7,7 +7,7 @@
 
 = Details =
 
-// 调用 nsp.vfs.lsdir
+// 调用 nsp.vfs.lsdir<br />
 NSPClient nspClient = new NSPClient("×××", "×××"); // 创建Client对象<br/>
 nsp.VFS vfs = nspClient.service(VFS.class);   // 实例化服务对象<br/>
 LsResult obj = vfs.lsdir("/Netdisk", File.DEFAULT_PROPERTIES, 3, 0); //调用服务<br/>
