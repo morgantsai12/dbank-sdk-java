@@ -8,6 +8,6 @@
 = Details =
 
 // 调用 nsp.vfs.lsdir<br />
-NSPClient nspClient = new NSPClient("×××", "×××"); // 创建Client对象<br/>
+NSPClient nspClient = new NSPClient("iuTeAN9uaQ6xYuCt8f7uaL4Hwua5CgiU2J0kYJq01KtsA4DY",<br/>	"c94f61061b46668c25d377cead92f898");// 创建Client对象<br/>
 nsp.VFS vfs = nspClient.service(VFS.class);   // 实例化服务对象<br/>
-LsResult obj = vfs.lsdir("/Netdisk", VFSExt.DEFAULT_PROPERTIES, 3, 0); //调用服务<br/>
+LsResult obj = vfs.lsdir("/Netdisk", VFSExt.DEFAULT_PROPERTIES, 3, 0);//调用服务
